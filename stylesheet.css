@@ -136,6 +136,7 @@ hr {
 .news-container {
   padding: 0;
   width: 100%;
+  font-size: 15px;
 }
 
 .news-item {
@@ -163,6 +164,24 @@ hr {
 
 .project-item {
   margin-bottom: 25px;
+}
+
+.author-list {
+  margin: 0;
+}
+
+.author-list summary {
+  cursor: pointer;
+  display: inline;
+}
+
+.author-list summary:hover {
+  color: #1772d0;
+}
+
+.author-list-expanded {
+  margin-top: 6px;
+  padding-left: 18px;
 }
 
 /* Paper and video links with colored boxes */
@@ -199,6 +218,44 @@ hr {
 }
 
 .video-link:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+.blog-link {
+  display: inline-block;
+  background-color: #315f27;
+  color: white;
+  font-weight: bold;
+  padding: 2px 6px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9em;
+  margin-top: 4px;
+  transition: box-shadow 0.2s ease;
+}
+
+.blog-link:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+.huggingface-link {
+  display: inline-block;
+  background-color: #ff9e0a;
+  color: white;
+  font-weight: bold;
+  padding: 2px 6px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9em;
+  margin-top: 4px;
+  transition: box-shadow 0.2s ease;
+}
+
+.huggingface-link:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   color: white;
   text-decoration: none;
